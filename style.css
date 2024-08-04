@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+#head {
+    background-color: green;
+    color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+#nav {
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: xx-large;
+    position: absolute;
+    color: green;
+    left: 145px;
+    font-family: 'varela round', sans-serif;
+}
+
+#nav>li {
+    margin-right: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.img-text {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'fuzzy bubbles';
+}
+
+#img-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+    font-family: 'varela round';
+    z-index: 10;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 560px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(14, 223, 14);
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.circle{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icon1,.icon2,.icon3,.icon4{
+    display: inline-block;
+    height: 90px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.p1{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 155px;
+}
+
+.p2{
+    display: inline-block;
+    margin-left: 139px;
+}
+
+.p3{
+    display: inline-block;
+    margin-left: 132px;
+}
+
+.p4{
+    display: inline-block;
+    margin-left: 135px;
+}
+.c1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 142px;
+    font-size: 13px;
+}
+
+.c2{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 117px;
+}
+
+.c3{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 117px;
+}
+
+.c4{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 160px;
+}
+
+.icon1>.fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 190px;
+    font-size: 40px;
+}
+.icon2>.fa-solid{
+    position: absolute;
+    top: 20px;
+    left: 455px;
+    font-size: 45px;
+}
+.icon3>.fa-solid{
+    position: absolute;
+    top: 20px;
+    left: 719px;
+    font-size: 45px;
+}
+.icon4>.fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 983px;
+    font-size: 40px;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    position: relative;
+    top: 400px;
+    left: 40px;
+ 
+}
+
+.box {
+    margin: 0px 60px;
+    width: 280px;
+    height: 180px;
+    padding: 10px 1px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.box-img {
+    height: 180px;
+    background-size: cover;
+}
+
+.btn-images {
+    padding: 5px;
+    color: white;
+    background-color: rgb(14, 223, 14);
+    border: none;
+    margin-top: 154px;
+}
