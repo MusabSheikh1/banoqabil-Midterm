@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777; /* Lighter text color */
+  }
+  
+</style>
+
+<body>
+    <footer>
+        <div class="vegefoods">
+            <h5>
+                Vegefoods
+            </h5>
+            <p>Far far away, behind the word <br> mountains, far from the <br> countries Vokalia and <br> Consonantia.</p>
+        </div>
+         
+        <div class="menu">
+            <h5>
+                Menu
+            </h5>
+            <p>Shop <br>
+            About <br>
+        Journal <br>
+    Contact us <br>
+</p>
+        </div>
+
+<div class="help">
+    <h5>
+        Help
+    </h5>
+    <p>
+        Shipping information   FAQs <br>
+        Rturns & Exchange      Contact <br>
+        Terms & Conditions <br>
+        Privacy Policy <br>
+
+    </p>
+</div>
+
+<div class="have any questions">
+    <h5>
+        Have a Questions?
+    </h5>
+    <p>203 Fake St.Mountain <br> View, San Fransisco, <br> California, USA <br> +2 392 3929 210</p>
+</div>
+    </footer>
+</body>
+</html>
